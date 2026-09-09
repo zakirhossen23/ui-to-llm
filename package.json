@@ -1,0 +1,27 @@
+{
+  "name": "ui-to-llm",
+  "version": "1.0.0",
+  "description": "Parse UI PNG screenshots into JSON, HTML, and Set-of-Mark annotated images for AI text & vision models.",
+  "main": "src/index.js",
+  "bin": {
+    "ui-to-llm": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js"
+  },
+  "keywords": [
+    "ui",
+    "layout-parser",
+    "llm",
+    "bounding-box",
+    "ocr",
+    "set-of-mark"
+  ],
+  "author": "Zakir Hossen <https://github.com/zakirhossen23>",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "sharp": "^0.33.2",
+    "tesseract.js": "^5.0.4"
+  }
+}
