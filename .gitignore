@@ -2,3 +2,11 @@
 node_modules/
 *.log
 .env
+
+# tesseract.js downloads OCR language data next to the working dir
+*.traineddata
+
+# generated test / CLI output artifacts
+layout.json
+annotated_ui.png
+test_output_annotated.png
